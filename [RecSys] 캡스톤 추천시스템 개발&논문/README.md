@@ -1,4 +1,5 @@
 # Outer Product Convolutional DeepCF Using Side Information
+![아키텍처](https://user-images.githubusercontent.com/91249960/177695804-a8cc03d9-6a85-40f0-8bb5-e8f79d20fe2f.png)
 + Collaborative Filtering을 기반으로 한 DeepCF 아키텍처를 발전시켜 소비자의 Item 선호 정보와 소비자의 부가정보, Item의 정보 등을 폭넓게 추천 시스템에 반영할 수 있는 Outer Product Convolutional DeepCF with Side Information을 제안
 + 기존 DeepCF의 Aggregation Function인 Concatenation이나 Element-wise와 다르게 소비자와 아이템 간의 상관관계를 충분히 반영할 수 있도록 Outer Product 방식을 이용해 2D Interaction map을 생성
 + Side Information을 Embedding한 값을 활용해 또 하나의 Feature Map을 생성
